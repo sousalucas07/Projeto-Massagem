@@ -1,0 +1,121 @@
+#navbar {
+    height: 140px;
+    width: 100%;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 8px 0;
+}
+
+#navbar-items {
+    flex-direction: inline;
+    text-align: justify;
+}
+
+#navbar-items li:nth-child(2) {
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.logo {
+    text-align: center;
+    bottom: auto;
+}
+
+/*NOSSOS SERVIÇOS*/
+
+#clients-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.client {
+    width: 80%;
+}
+
+#clients {
+    padding: 40px 10px;
+}
+
+/*O QUE FAZEMOS?*/
+
+#features-container {
+    grid-template-columns: 1fr;
+    margin: auto;
+    grid-gap: 7px;
+}
+    
+
+.feature {
+    padding: auto;
+}
+
+#features{
+    padding: auto;
+}
+
+.icon {
+    justify-content: center;
+    padding-top: 0;
+}
+
+
+.icon {
+    width: 50px;
+}
+
+
+.feature-title {
+    height: auto;
+}
+    
+p {
+    font-size: 12px;
+}
+
+
+/*SOBRE*/
+
+
+#product-container {
+    flex-direction: column;
+}
+
+#items {
+    width: 100%;
+}
+
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*FEEDBACKS*/
+
+
+#feedbacks {
+    padding: 5px;
+}
+
+#feedbacks-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 3px;
+}
+
+.feedback-image {
+    width: 40%;
+    height: auto;
+}
+
+/*GALERIA*/
+
+#gallery-container {
+    grid-template-columns: 1fr;
+}
+
+.gallery-image {
+    width: 110%;
+    height: auto;
+}

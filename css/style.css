@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #DEB887;
+    color: #410b0b;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #DEB887;
+}
+
+.headline {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color: #410b0b;
+}
+
+/*Nav bar*/
+
+#navbar {
+    width: 100%;
+    background: #DEB887;
+    color: #080707;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #410b0b;
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    color: #410b0b;
+}
+
+#navbar-items li {
+    padding: 10px;
+}
+
+
+/*SHOWCASE*/
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url('/img/showcasi.png') no-repeat center center/cover;
+
+/*Overlay(Sombreado)opaco*/
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+#showcase-container {
+    text-align: center;
+}
+
+#showcase-container h2 {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 6px 0;
+}
+
+
+/* NOSSOS SERVIÇOS */
+
+#clients {
+    width: 100%;
+    background: #F5DEB3;
+    color: #111;
+    padding: 50px;
+}
+
+
+.gallery-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 100;
+    left: 0;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery-wrapper .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    }
+  
+    .gallery-wrapper .item {
+    width: 250px;
+    height: 210px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 1;
+    border-radius: 10px;
+ }
+
+   .legenda {
+    text-align: center;
+    color: #410b0b;
+    font-size: 11px;
+    
+ }
+
+
+
+  
+  /* This is from w3schools */
+  /* 
+  https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+       
+  }
+  
+  .cyan {
+    background: cyan;
+  }
+  
+  .deeppink {
+    background: deeppink;
+  }
+  
+  .turquoise {
+    background: turquoise;
+  }
+  
+  .darkblue {
+    background: darkblue;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
+
+
+
+
+/*O QUE FAZEMOS?*/
+
+i {
+    text-align: center;
+    color: #410b0b;
+}
+
+
+.icon {
+    width: 70px;
+    text-align: center;
+}
+
+#features {
+    width: 100%;
+    background: #FFE4E1;
+    color: #eee;
+    padding: 50px;
+    justify-items: center;
+}
+
+#features-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding: 5px;  
+    grid-gap: 30px;  
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background: #D8BFD8;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: auto;
+    color: #410b0b;
+    width: 100%;
+    height: 183px;
+    text-align: justify;
+    border: #410b0b;
+    border-style: solid;
+    border-width: 1.5px;
+}
+    
+
+p {
+    display: grid;
+    text-align: center;
+    width: auto;
+    font-size: 13.5px;
+}
+
+.feature-title {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*SOBRE*/
+
+#product {
+    width: 100%;
+    padding: 50px;
+    height: auto;
+}
+
+#product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items {
+    width: 650px;
+}
+
+#items .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.iphone-x {
+    width: 200px;
+}
+
+
+/*FEEDBACKS*/
+
+
+#feedbacks {
+    width: 100%;
+    background: #c7b2a0;
+    color: #eee;
+    padding: 50px;     
+}
+
+#feedbacks-container {
+    display: grid;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #F4A460;
+    padding: 15px;
+    padding: 5px;
+    width: 100%;
+}
+    
+
+
+
+
+.gallery-wrapper .feedback-image{
+    width: 300px;
+    height: 260px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 1;
+    border-radius: 50%;
+ }
+
+
+
+/*GALERIA*/
+
+#gallery {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+
+.gallery-image {
+    display: inline-block;
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+/*FOOTER*/
+
+#footer {
+    background:  #DEB887;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+#footer p {
+    color: #410b0b;
+}
+
+
+
