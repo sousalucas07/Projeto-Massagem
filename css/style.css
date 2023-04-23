@@ -18,6 +18,9 @@ a {
 
 }
 
+#btn-mobile {
+    display: none;
+}
 .btn {
     display: inline-block;
     padding: 15px 50px;
@@ -40,7 +43,7 @@ a {
     font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
-    padding-top: 5px;
+    padding-top: 0;
     color: #410b0b;
 }
 
@@ -66,6 +69,7 @@ a {
 .logo {
     color: #410b0b;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 #navbar-items {
@@ -117,6 +121,7 @@ a {
     background: #F5DEB3;
     color: #111;
     padding: 50px;
+    padding-top: 20px;
 }
 
 
@@ -187,32 +192,7 @@ a {
   
   
   /* Hide scrollbar for IE, Edge and Firefox */
-  .gallery-wrapper {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-       
-  }
-  
-  .cyan {
-    background: cyan;
-  }
-  
-  .deeppink {
-    background: deeppink;
-  }
-  
-  .turquoise {
-    background: turquoise;
-  }
-  
-  .darkblue {
-    background: darkblue;
-  }
-  
-  .purple {
-    background: purple;
-  }
-  
+ 
 
 
 
@@ -235,6 +215,7 @@ i {
     background: #FFE4E1;
     color: #eee;
     padding: 50px;
+    padding-top: 20px;
     justify-items: center;
 }
 
@@ -282,6 +263,7 @@ p {
 #product {
     width: 100%;
     padding: 50px;
+    padding-top: 20px;
     height: auto;
 }
 
@@ -315,6 +297,7 @@ p {
     background: #c7b2a0;
     color: #eee;
     padding: 50px;     
+    padding-top: 20px;
 }
 
 #feedbacks-container {
@@ -332,8 +315,8 @@ p {
 
 
 .gallery-wrapper .feedback-image{
-    width: 300px;
-    height: 260px;
+    width: 250px;
+    height: 230px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 1;
@@ -348,6 +331,7 @@ p {
     width: 100%;
     margin: auto;
     padding: 50px;
+    padding-top: 20px;
 }
 
 #gallery-container {
@@ -363,6 +347,25 @@ p {
     width: 100%;
     height: 260px;
     border-radius: 5px;
+}
+
+/*CONTACT*/
+
+#contact {
+    background:  #410b0b;
+    color: #DEB887;
+    padding: 100px 15px; 
+    padding-top: 20px;
+    
+}
+
+#contact .headline {
+    color: #DEB887;
+    padding-bottom: 70px;
+}
+
+#contacts-container {
+    padding-bottom: 20px;
 }
 
 /*FOOTER*/

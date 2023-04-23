@@ -1,27 +1,140 @@
+
+/*MENU MOBILE*/
+
 #navbar {
-    height: 140px;
+    height: 100px;
     width: 100%;
 }
 
 #navbar-container {
-    flex-direction: column;
-    padding: 8px 0;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    text-align: justify;
 }
 
 #navbar-items {
     flex-direction: inline;
     text-align: justify;
+    width: 100%;
 }
+    
 
-#navbar-items li:nth-child(2) {
-    border-right: 1px solid #333;
-    border-left: 1px solid #333;
-}
+
+/*#navbar-items li:nth-child(2) {
+    border-top: 2px solid #410b0b;
+    border-bottom: 2px solid #410b0b;
+    margin: 10px;
+}*/
+
+
 
 .logo {
-    text-align: center;
-    bottom: auto;
+    text-align: letf;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
 }
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    #showcase-container h2{
+        font-size: 25px;
+    }
+    #showcase-container p{
+        font-size: medium;
+    }
+    #showcase-container a{
+        font-size: small;
+    }
+    .logo {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    #btn-mobile {
+        display: block;
+    }
+    #navbar-items {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        right: 0;
+        background: #DEB887;
+        transition: .6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+        text-transform: capitalize;
+    }
+        
+       
+    #navbar.active #navbar-items {
+        height: calc(100vh - 100px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+        
+    #navbar-items li {
+        padding: 10px;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(107, 29, 29, 0.05);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger {
+        color: #410b0b;
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #navbar.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #navbar.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #navbar.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
+
+
+.headline {
+    font-size: large;
+    padding: 10px;
+    bottom: 0;
+}
+
+/*SHOWCASE*/
+
+
+
 
 /*NOSSOS SERVIÇOS*/
 
@@ -34,7 +147,7 @@
 }
 
 #clients {
-    padding: 40px 10px;
+    padding: 10px;
 }
 
 /*O QUE FAZEMOS?*/
@@ -51,7 +164,7 @@
 }
 
 #features{
-    padding: auto;
+    padding: 10px 40px;
 }
 
 .icon {
