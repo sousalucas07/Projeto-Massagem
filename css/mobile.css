@@ -150,17 +150,23 @@
     padding: 10px;
 }
 
+/*.gallery-wrapper::-webkit-scrollbar {
+    width: 1px;
+ }*/
+
 /*O QUE FAZEMOS?*/
 
 #features-container {
     grid-template-columns: 1fr;
     margin: auto;
     grid-gap: 7px;
+    font-size: large;
+    padding-bottom: 30px;
 }
     
 
 .feature {
-    padding: auto;
+    margin-bottom: 20px;
 }
 
 #features{
@@ -170,21 +176,18 @@
 .icon {
     justify-content: center;
     padding-top: 0;
+    padding-bottom: 0;
+    width: 55px;
 }
-
-
-.icon {
-    width: 50px;
+.iconn {
+    width: 75px;
 }
-
 
 .feature-title {
-    height: auto;
+    font-size: large;
 }
     
-p {
-    font-size: 12px;
-}
+
 
 
 /*SOBRE*/
