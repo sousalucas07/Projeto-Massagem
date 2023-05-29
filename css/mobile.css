@@ -1,6 +1,10 @@
 
 /*MENU MOBILE*/
 
+body {
+    padding: 0;
+}
+
 #navbar {
     height: 100px;
     width: 100%;
@@ -122,14 +126,34 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    
+
 }
 
+@media  screen and (max-width: 426px) {
 
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    form {
+        display: grid;
+    }
+}
 .headline {
     font-size: large;
     padding: 10px;
     bottom: 0;
 }
+
+
 
 /*SHOWCASE*/
 
