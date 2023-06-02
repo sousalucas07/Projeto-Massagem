@@ -126,6 +126,9 @@ a {
     padding-top: 20px;
 }
 
+.clients-container .gallery-wrapper {
+    overflow-x: scroll;
+}
 .gallery-wrapper::-webkit-scrollbar {
    width: 1px;
 }
@@ -142,16 +145,16 @@ a {
 .gallery-wrapper {
     width: 100%;
     overflow-x: auto;
-  }
+}
   
   
-  .gallery-wrapper .gallery {
+.gallery-wrapper .gallery {
     display: flex;
     flex-flow: row nowrap;
     gap: 20px;
-    }
+}
   
-    .gallery-wrapper .item {
+.gallery-wrapper .item {
     width: 250px;
     height: 210px;
     flex-shrink: 0;
@@ -161,14 +164,14 @@ a {
     box-shadow: 4px 4px 10px #410b0b;
     margin-top: 10px;
     margin-left: 10px;
- }
+}
 
-   .legenda {
+.legenda {
     text-align: center;
     color: #410b0b;
     font-size: 11px;
     
- }
+}
 
 
 
@@ -272,7 +275,7 @@ p::-webkit-scrollbar-thumb {
 #product-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 }
 
 #items {

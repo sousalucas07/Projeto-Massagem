@@ -132,7 +132,9 @@ body {
         gap: 2rem;
     }
 
-    
+    #clients-container {
+        overflow-x: scroll;
+    }    
 
 }
 
