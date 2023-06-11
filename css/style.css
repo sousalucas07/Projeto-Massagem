@@ -263,23 +263,29 @@ p::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-/*SOBRE*/
+/*SOBRE MIM*/
 
 #product {
     width: 100%;
     padding: 50px;
-    padding-top: 20px;
+    
     height: auto;
+}
+
+#product i {
+    height: 2px;    
 }
 
 #product-container {
     display: flex;
+    padding-left:0px;
     justify-content: center;
     align-items: left;
 }
 
 #items {
     width: 650px;
+    margin: 10px;    
 }
 
 #items .item {
@@ -289,8 +295,9 @@ p::-webkit-scrollbar-thumb {
     font-size: 1.2rem;
 }
 
-.iphone-x {
+.aboutme {
     width: 200px;
+    border-radius: 20px;
 }
 
 
@@ -430,8 +437,8 @@ form {
 }
 
 .box button {
-    margin-top: 50px;
-    margin-left: 6rem;
+    margin-top: 10px;
+    margin-left: 5.4rem;
     background-color: #DEB887;
     border: 0px;
     padding: 10px 40px;

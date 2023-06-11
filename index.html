@@ -143,22 +143,22 @@
     <section id="product">
         <div class="headline">Sobre Mim</div>  
         <div id="product-container">
-            <img src="" alt="" class="iphone-x">
+            <img src="/img/aboutme.png" alt="profissional" class="aboutme">
             <div id="items">
                 <div class="item">
-                    <i class="fa-sharp fa-solid fa-heart fa-2x"></i>
+                    <i class="fa-solid fa-spa"></i>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolore quod rerum culpa ipsum commodi?</p>
                 </div>    
                 <div class="item">
-                    <i class="fa-solid fa-face-sleeping"></i>
+                    <i class="fa-solid fa-spa"></i>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolore quod rerum culpa ipsum commodi?</p>
                 </div>
                 <div class="item">
-                    <i class="fas fa-map-marked fa-2x color-primary"></i>
+                    <i class="fa-solid fa-spa"></i>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolore quod rerum culpa ipsum commodi?</p>
                 </div>
                 <div class="item">
-                    <i class="fas fa-map-marked fa-2x color-primary"></i>
+                    <i class="fa-solid fa-spa"></i>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolore quod rerum culpa ipsum commodi?</p>
                 </div>
             </div>
@@ -212,8 +212,12 @@
                         >
                     </div>
                     <div class="box">Você pratica alguma atividade física?
-                        <input type="text" name="Telefone" placeholder="Resposta" autocomplete="off"
-                        >
+                        <br><label for="simnão"></label>
+                        <select id="atv" name="atv" >
+                            <option value=""></option>
+                            <option value="laranja">Sim</option>
+                            <option value="maça">Não</option>
+                        </select>
                     </div>
                     <div class="box"> Possui alguma condição médica, lesão recente ou algum problema específico?
                         <input type="text" name="Telefone" placeholder="Resposta" autocomplete="off"
@@ -223,18 +227,10 @@
                         <input type="text" name="Telefone" placeholder="Resposta" autocomplete="off"
                         >
                     </div>
-                    <div class="box">
+                    <div class="box">Pergunta
                         <input type="text" name="Mensagem" placeholder="Mensagem" autocomplete="off"
                         >
                     </div>
-                    <label for="frutas">Qual tipo de pika você prefere?</label>
-                        <select id="frutas" name="frutas">
-                            <option value="laranja">pequena/grossa</option>
-                            <option value="maça">média/mediana</option>
-                            <option value="banana">grande/fina</option>
-                            <option value="uva">pequena/fina</option>
-                            <option value="uva">grande/grossa</option>
-                        </select>
                     <div class="box">
                             <button id="send">Enviar</button>
                     </div>
@@ -308,14 +304,15 @@
             </div>
         </div>
     </div>
+    <div id="footer">
+        <p>&#169 Zahra Massagens  2023 - Todos os direitos reservados</p>
+        <p>Developed by LPS</p>
+    </div>
 </footer> 
  
     
 
-<footer id="footer">
-    <p>&#169 Zahra Massagens  2023 - Todos os direitos reservados</p>
-    <p>Developed by LPS</p>
-</footer>
+
     
 
 
