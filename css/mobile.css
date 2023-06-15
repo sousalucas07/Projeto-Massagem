@@ -192,11 +192,12 @@ body {
     
 
 .feature {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
 }
 
 #features{
-    padding: 10px 40px;
+    padding: 10px 80px;
 }
 
 .icon {
@@ -218,9 +219,18 @@ body {
 
 /*SOBRE*/
 
+#product {
+    padding: 20px;
+}
+
+.aboutme {
+    text-align: center;
+}
 
 #product-container {
     flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
 }
 
 #items {
@@ -228,10 +238,11 @@ body {
 }
 
 .item {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    align-items: left;
 }
+
+
 
 /*FEEDBACKS*/
 

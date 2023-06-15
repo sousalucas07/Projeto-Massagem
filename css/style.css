@@ -268,12 +268,7 @@ p::-webkit-scrollbar-thumb {
 #product {
     width: 100%;
     padding: 50px;
-    
     height: auto;
-}
-
-#product i {
-    height: 2px;    
 }
 
 #product-container {
@@ -297,7 +292,7 @@ p::-webkit-scrollbar-thumb {
 
 .aboutme {
     width: 200px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 
