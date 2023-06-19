@@ -266,6 +266,7 @@ p::-webkit-scrollbar-thumb {
 /*SOBRE MIM*/
 
 #product {
+    background-color: #FFDAB9;
     width: 100%;
     padding: 50px;
     height: auto;
@@ -505,7 +506,7 @@ form {
     color: #410b0b;
 }
 
-#foote_subscribe {
+#footer_subscribe {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
