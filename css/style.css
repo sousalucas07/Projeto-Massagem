@@ -95,7 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #eee;
-    background: url('/img/showcasi.png') no-repeat center center/cover; 
+    background: url('/img/massagem-com-os-olhos-fechados-no-spa1.jpeg') no-repeat center center/cover; 
 
 /*Overlay(Sombreado)opaco*/
 
@@ -167,12 +167,15 @@ a {
 }
 
 .legenda {
-    text-align: center;
+    
     color: #410b0b;
     font-size: 11px;
     
 }
-
+.legenda h1 {
+    margin-top: 10px;
+    text-align: center;
+}
 
 
 
