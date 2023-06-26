@@ -92,4 +92,14 @@ controls.forEach((control) => {
   });
 });
 
+// O QUE FAZEMOS
 
+
+function toggleText() {
+  var texto = document.getElementById("isso");
+  if (texto.style.display === "none") {
+    texto.style.display = "block";
+  } else {
+    texto.style.display = "none";
+  }
+}

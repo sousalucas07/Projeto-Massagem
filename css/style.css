@@ -186,6 +186,19 @@ i {
     color: #410b0b;
 }
 
+.feature button {
+    margin-top: 10px;
+    
+    background-color: #410b0b60;
+    border: 0px;
+    padding: 10px 40px;
+    color: #DEB887;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 4px;
+    --webkit-border-radius: 4px;
+
+}
 
 .icon {
     width: 70px;
