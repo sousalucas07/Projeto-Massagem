@@ -47,13 +47,7 @@ btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
 
 
-/*navbarItems.addEventListener("click", function() {
-  if (navbarItems.style.display === "none") {
-    navbarItems.style.display = "block";
-  } else {
-    navbarItems.style.display = "none";
-  }
-});*/
+
 
 
 
