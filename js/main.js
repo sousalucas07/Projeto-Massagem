@@ -95,11 +95,24 @@ controls.forEach((control) => {
 // O QUE FAZEMOS
 
 
-function toggleText() {
-  var texto = document.getElementById("isso");
+/*function toggleText() {
+  var texto = document.getElementsByClassName("aba");
   if (texto.style.display === "none") {
     texto.style.display = "block";
   } else {
     texto.style.display = "none";
   }
+*/
+function exibirTexto() {
+  var textoDiv = document.getElementById("texto");
+  var overlayDiv = document.getElementById("overlay");
+
+  if (textoDiv.style.display === "block") {
+    textoDiv.style.display = "none";
+    overlayDiv.style.display = "none";
+  } else {
+    textoDiv.style.display = "block";
+    overlayDiv.style.display = "block";
+  }
 }
+
