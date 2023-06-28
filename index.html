@@ -123,18 +123,17 @@
             <div class="feature">
                 <i><img src="/img/drenagem.icon.png" alt="ícone" class="icon"></i>
                 <span class="feature-title">Drenagem</span> 
-                <button onclick="exibirTexto()"> Saiba mais</button>
-                <div id="overlay"></div>
-                <div id="texto">
+            <button onclick="exibirTexto(this.parentElement.querySelector('.texto'))"> Saiba mais</button>
+                <div class="texto">
                     <p>Alivia dores articulares e musculares; Reduz medida, relaxa, regula seu sistema imune e digestório.</p>
                 </div>
             </div>    
             <div class="feature">
                 <i><img src="/img/afrodite-icon.png" alt="ícone" class="icon"></i> 
                 <span class="feature-title">Método Afrodite</span>
-                <button onclick="exibirTexto()"> Saiba mais</button>
+                <button onclick="exibirTexto(this.parentElement.querySelector('.texto'))"> Saiba mais</button>
                 <div id="overlay"></div>
-                <div id="texto">
+                <div class="texto">
                     <p>Seca, modela, e relaxa; Tonifica a pele; Regula sistema digestório; Auxilía na perda de peso; trata flacidez e celulites.</p>
                 </div>
             </div>    
@@ -142,38 +141,18 @@
             <div class="feature">
                 <i><img src="/img/relaxante-icon.png" alt="ícone" class="icon"></i>
                 <span class="feature-title">Relaxante</span> 
-                <button onclick=""> Saiba mais</button> 
-                <p>Alivia tensões musculares; Melhora quadros de insônia, estresse e ansiedade; Induz grande relaxamento físico e mental.</p>
+                <button onclick="exibirTexto(this.parentElement.querySelector('.texto'))"> Saiba mais</button> 
+                <div class="texto">
+                    <p>Alivia tensões musculares; Melhora quadros de insônia, estresse e ansiedade; Induz grande relaxamento físico e mental.</p>
+                </div>
             </div>
             <div class="feature">
                 <i><img src="/img/aroma.icon.png" alt="ícone" class="iconn"></i>
                 <span class="feature-title">Aromaterapia</span>
-                <button onclick="toggleText()"> Saiba mais</button>  
-                <p>Alívio do estresse e da ansiedade; Melhoria do sono; Alívio da dor muscular; Melhoria da circulação; Melhoria do humor; Fortalecimento do sistema imunológico.</p>
-            </div>
-            <div class="feature">
-                <i><img src="/img/velas.icon.png" alt="ícone" class="icon"></i>
-                <span class="feature-title">Relaxante c/ Velas</span> 
-                <button onclick="toggleText()"> saiba mais</button> 
-                <p>Relaxamento muscular; Hidratação da pele; Melhoria da circulação sanguínea; Alívio do estresse; Melhoria do sistema imunológico; Estímulo dos sentidos.</p>
-            </div>
-            <div class="feature">
-                <i><img src="/img/ventosa.icon.png" alt="ícone" class="icon"></i>
-                <span class="feature-title">Relaxante c/ Ventosas</span>      
-                <button onclick="toggleText()"> saiba mais</button> 
-                <p>Relaxamento do corpo e mente, fortalece dos vasos sanguíneos, reduz dores e inflamações, melhora o fluxo sanguíneo e a circulação.</p>
-            </div>
-            <div class="feature">
-                <i><img src="/img/spaday.icon.png" alt="ícone" class="icon"></i>
-                <span class="feature-title">SPA Day</span> 
-                <button onclick="toggleText()"> saiba mais</button> 
-                <p>O SPA Day é um tratatemento que inclui: Massagem relaxante; Drenagem; Esfoliação; Aromaterapia; Argiloterapia; Promovendo relaxamento, bem estar físico e mental além de cuidar da estética do seu corpo.</p>
-            </div>
-            <div class="feature">
-                <i><img src="/img/lish.icon.png" alt="ícone" class="icon"></i>
-                <span class="feature-title">Lash Lifting</span> 
-                <button onclick="toggleText()"> saiba mais</button> 
-                <p> Curva e nutre os fios dos cílios, entregando um olhar marcante e natural!</p>
+                <button onclick="exibirTexto(this.parentElement.querySelector('.texto'))"> Saiba mais</button>  
+                <div class="texto">
+                    <p>Alívio do estresse e da ansiedade; Melhoria do sono; Alívio da dor muscular; Melhoria da circulação; Melhoria do humor; Fortalecimento do sistema imunológico.</p>
+                </div>
             </div>
         </div>
     </section>

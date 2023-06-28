@@ -103,16 +103,13 @@ controls.forEach((control) => {
     texto.style.display = "none";
   }
 */
-function exibirTexto() {
-  var textoDiv = document.getElementById("texto");
-  var overlayDiv = document.getElementById("overlay");
-
-  if (textoDiv.style.display === "block") {
-    textoDiv.style.display = "none";
-    overlayDiv.style.display = "none";
+function exibirTexto(elemento) {
+  if (elemento.style.display === "block") {
+    elemento.style.display = "none";
   } else {
-    textoDiv.style.display = "block";
-    overlayDiv.style.display = "block";
+    elemento.style.display = "block";
   }
 }
+
+
 
