@@ -293,6 +293,7 @@ p::-webkit-scrollbar-thumb {
     width: 100%;
     padding: 50px;
     height: auto;
+    grid-template-columns: repeat(3, 3fr);
 }
 
 #product-container {
