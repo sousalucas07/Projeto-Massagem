@@ -191,10 +191,12 @@ i {
 .feature button {
     width: 100px;
     margin-top: 10px;
-    background-color: #410b0b60;
+    background: #410b0b60;
+    color: #eee;
     border: 0px;
     padding: 5px 5px;
     border-radius: 4px;
+    
 }
 
 .icon {
