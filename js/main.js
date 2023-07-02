@@ -46,11 +46,6 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
 
-
-
-
-
-
 //SLIDER CAROUSEL
 
 const controls = document.querySelectorAll(".control");
@@ -94,15 +89,6 @@ controls.forEach((control) => {
 
 // O QUE FAZEMOS
 
-
-/*function toggleText() {
-  var texto = document.getElementsByClassName("aba");
-  if (texto.style.display === "none") {
-    texto.style.display = "block";
-  } else {
-    texto.style.display = "none";
-  }
-*/
 function exibirTexto(elemento) {
   if (elemento.style.display === "block") {
     elemento.style.display = "none";
@@ -111,5 +97,17 @@ function exibirTexto(elemento) {
   }
 }
 
+//ENVIO DO FORMULÁRIO
 
-
+const evento = document.getElementById('send')
+const enviarFormulario =() => {
+        let nome = document.getElementById('nome').value; 
+        let queixas = document.getElementById('queixas').value; 
+        let atv = document.getElementById('atv').value; 
+        let condiçao = document.getElementById('condição').value; 
+        let alergia = document.getElementById('alergia').value; 
+        let pergunta = document.getElementById('resposta').value; 
+        let numero = 5583987328810
+var win= window.open(`https://wa.me/${numero}?text=Ola%20meu%20nome%20é%20${nome}! %0D%0AMinhas%20queixas são:%20${queixas}; %0D%0AAtividade%20física:%20${atv}; %0D%0ALesão:%20${condiçao}; %0D%0AAlergia:%20${alergia}; %0D%0APergunta:%20${pergunta}.`, '_blank');
+}
+evento.addEventListener('click', enviarFormulario)
