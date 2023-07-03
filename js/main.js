@@ -111,3 +111,12 @@ const enviarFormulario =() => {
 var win= window.open(`https://wa.me/${numero}?text=Ola%20meu%20nome%20é%20${nome}! %0D%0AMinhas%20queixas são:%20${queixas}; %0D%0AAtividade%20física:%20${atv}; %0D%0ALesão:%20${condiçao}; %0D%0AAlergia:%20${alergia}; %0D%0APergunta:%20${pergunta}.`, '_blank');
 }
 evento.addEventListener('click', enviarFormulario)
+
+
+window.sr = ScrollReveal({ reset: true});
+
+sr.reveal('#clients', { rotate: {x: 0, y: 80, z: 0},duration: 1000});
+sr.reveal('#features, #product', { rotate: {x: 0, y: 80, z: 0}, duration:2000});
+sr.reveal('#feedbacks, #gallery, #contact, footer', { rotate: {x: 0, y: 80, z: 0}, duration:2000});
+
+

@@ -571,4 +571,6 @@ form {
     opacity: 0.8;
 }
 
-
+#clients, #features, #product, #feedbacks, #gallery, #contact, footer {
+    visibility: hidden;
+}
