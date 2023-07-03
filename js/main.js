@@ -115,8 +115,6 @@ evento.addEventListener('click', enviarFormulario)
 
 window.sr = ScrollReveal({ reset: true});
 
-sr.reveal('#clients', { rotate: {x: 0, y: 80, z: 0},duration: 1000});
-sr.reveal('#features, #product', { rotate: {x: 0, y: 80, z: 0}, duration:2000});
-sr.reveal('#feedbacks, #gallery, #contact, footer', { rotate: {x: 0, y: 80, z: 0}, duration:2000});
+sr.reveal('#clients,#features, #product,#feedbacks, #gallery, #contact, footer', { rotate: {x: 0, y: 80, z: 0},duration: 1000});
 
 

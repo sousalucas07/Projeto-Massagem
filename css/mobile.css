@@ -6,8 +6,10 @@ body {
 }
 
 #navbar {
+    position: fixed;
     height: 80px;
     width: 100%;
+    z-index: 9999;
 }
 
 #navbar-container {
@@ -23,14 +25,6 @@ body {
     width: 100%;
 }
     
-
-
-/*#navbar-items li:nth-child(2) {
-    border-top: 2px solid #410b0b;
-    border-bottom: 2px solid #410b0b;
-    margin: 10px;
-}*/
-
 
 
 .logo {
@@ -79,7 +73,7 @@ body {
         
        
     #navbar.active #navbar-items {
-        height: calc(100vh - 100px);
+        height: calc(30vh - 120px);
         visibility: visible;
         overflow-y: auto;
     }

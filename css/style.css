@@ -58,6 +58,7 @@ a {
     color: #080707;
     height: 80px;
     position: fixed;
+    z-index: 9999;
 }
 
 #navbar-container {
