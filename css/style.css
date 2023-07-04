@@ -42,7 +42,6 @@ a {
 
 .headline {
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
@@ -123,7 +122,7 @@ a {
 
 #clients {
     width: 100%;
-    background: #F5DEB3;
+    background: #b6770373;
     padding: 50px;
     padding-top: 20px;
 }
@@ -203,6 +202,7 @@ i {
 .icon {
     width: 70px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .iconn {
