@@ -242,16 +242,29 @@ i {
     border-width: 1.5px;
     box-shadow: 10px 10px 10px #410b0b;
 }
-    
-  
-.texto {
-    display: none;
+
+/*.janela-modal {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     top: 0;
     left: 0;
+    background-color: #0000003f;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}*/
+
+.texto {
+    display: none;
     width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    z-index: 2;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: #ffffff96;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 20px;
 }
   
 

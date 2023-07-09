@@ -45,6 +45,50 @@
         </div>
 </header>
 
+<!-- AVALIAÇÃO-->
+<section id="contact">
+    <h1>Faça sua avaliação gratuita!</h1>
+            <form>
+                <div class="formu">
+                    <div class="box"> Digite seu nome!
+                        <input type="text" name="" id="nome" placeholder="Nome e Sobrenome" autocomplete="off"
+                        >
+                    </div>
+                    <div class="box">No momento, quais as suas principais queixas?
+                        <input type="text" name="" id="queixas" placeholder="Resposta" autocomplete="off"
+                        >
+                    </div>
+                    <div class="box">Você pratica alguma atividade física?
+                        <br><label for="simnão"></label>
+                        <select name="" id="atv">
+                            <option value=""></option>
+                            <option value="sim">Sim</option>
+                            <option value="não">Não</option>
+                        </select>
+                    </div>
+                    <div class="box"> Possui alguma condição médica, lesão recente ou algum problema específico?
+                        <input type="text" name="" id="condição" placeholder="Condição Física" autocomplete="off"
+                        >
+                    </div>
+                    <div class="box"> Possui alergia?
+                        <input type="text" name="" id="alergia" placeholder="Resposta" autocomplete="off"
+                        >
+                    </div>
+                    <div class="box">Pergunta
+                        <input type="text" name="" id="resposta" placeholder="Mensagem" autocomplete="off"
+                        >
+                    </div>
+                    <div class="box">
+                            <button id="send">Enviar</button>
+                    </div>
+                </div>
+            </form>
+
+        
+    
+
+</section>
+
 <!--"NOSSOS SERVIÇOS"-->
 <section id="clients">
         <div class="headline">Nossos Serviços</div>
@@ -92,7 +136,33 @@
                     
     
 </section>    
-            
+<!-- SOBRE MIM -->
+<section id="product"> 
+    <div id="product-container">
+        <img src="/img/aboutme.png" alt="profissional" class="aboutme">
+        
+        <div id="items">
+            <div class="headline"> <h1>Quem é a <br> Zahra Massagens?</h1></div> 
+            <div class="item">
+                <i class="fa-solid fa-spa"></i>
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
+            </div>    
+            <div class="item">
+                <i class="fa-solid fa-spa"></i>
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-spa"></i>
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-spa"></i>
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
+            </div>
+        </div>
+    </div>
+</section>
+     
 <!-- "O QUE FAZEMOS"  -->
 <section id="features">
         <div class="headline">O que fazemos</div>
@@ -100,11 +170,11 @@
             <div class="feature">
                 <i><img src="/img/drenagem.icon.png" alt="ícone" class="icon"></i>
                 <span class="feature-title">Drenagem</span> 
-            <button onclick="exibirTexto(this.parentElement.querySelector('.texto'))"> Ver mais</button>
-                <div class="texto">
-                    <p>Alivia dores articulares e musculares; Reduz medida, relaxa, regula seu sistema imune e digestório.</p>
-                </div>
-            </div>    
+                <button onclick="exibirTexto(nextDiv.querySelector('.texto'))"> Ver mais</button>
+            </div> 
+            <div class="texto">
+                <p>Alivia dores articulares e musculares; Reduz medida, relaxa, regula seu sistema imune e digestório.</p>
+            </div>         
             <div class="feature">
                 <i><img src="/img/afrodite-icon.png" alt="ícone" class="icon"></i> 
                 <span class="feature-title">Método Afrodite</span>
@@ -132,33 +202,6 @@
                 </div>
             </div>
         </div>
-</section>
-    
-<!-- SOBRE MIM -->
-<section id="product"> 
-    <div id="product-container">
-        <img src="/img/aboutme.png" alt="profissional" class="aboutme">
-        
-        <div id="items">
-            <div class="headline"> <h1>Quem é a <br> Zahra Massagens?</h1></div> 
-            <div class="item">
-                <i class="fa-solid fa-spa"></i>
-                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
-            </div>    
-            <div class="item">
-                <i class="fa-solid fa-spa"></i>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
-            </div>
-            <div class="item">
-                <i class="fa-solid fa-spa"></i>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
-            </div>
-            <div class="item">
-                <i class="fa-solid fa-spa"></i>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis </h4>
-            </div>
-        </div>
-    </div>
 </section> 
 
 <!-- FEEDBACKS -->
@@ -191,56 +234,12 @@
     </div>
 </section>
 
-<!-- AVALIAÇÃO-->
-
-<section id="contact">
-    <h1>Faça sua avaliação gratuita!</h1>
-            <form>
-                <div class="formu">
-                    <div class="box"> Digite seu nome
-                        <input type="text" name="" id="nome" placeholder="Nome e Sobrenome" autocomplete="off"
-                        >
-                    </div>
-                    <div class="box">No momento, quais as suas principais queixas?
-                        <input type="text" name="" id="queixas" placeholder="Resposta" autocomplete="off"
-                        >
-                    </div>
-                    <div class="box">Você pratica alguma atividade física?
-                        <br><label for="simnão"></label>
-                        <select name="" id="atv">
-                            <option value=""></option>
-                            <option value="sim">Sim</option>
-                            <option value="não">Não</option>
-                        </select>
-                    </div>
-                    <div class="box"> Possui alguma condição médica, lesão recente ou algum problema específico?
-                        <input type="text" name="" id="condição" placeholder="Condição Física" autocomplete="off"
-                        >
-                    </div>
-                    <div class="box"> Possui alergia?
-                        <input type="text" name="" id="alergia" placeholder="Resposta" autocomplete="off"
-                        >
-                    </div>
-                    <div class="box">Pergunta
-                        <input type="text" name="" id="resposta" placeholder="Mensagem" autocomplete="off"
-                        >
-                    </div>
-                    <div class="box">
-                            <button id="send">Enviar</button>
-                    </div>
-                </div>
-            </form>
-
-        
-    
-
-</section>
-    
+<!--FOOTER-->    
 <footer>
     <div id="footer_content">
         <div id="footer_contacts">
             <h1>Zahra Massagens</h1>
-            <p>Se cuidar e se sentir bem</p>
+            <p>Se cuidar e se sentir bem!</p>
 
             <div id="footer_social_media">
                 <a href="https://www.instagram.com/zahra_massagens/" target=_blank" class="footer-link" id="instagram">

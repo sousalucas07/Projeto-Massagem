@@ -112,7 +112,7 @@ var win= window.open(`https://wa.me/${numero}?text=Ola%20meu%20nome%20é%20${nom
 }
 evento.addEventListener('click', enviarFormulario)
 
-
+// EFEITO DE ROLAGEM
 window.sr = ScrollReveal({ reset: true});
 
 sr.reveal('#clients,#features, #product,#feedbacks, #gallery, #contact, footer', { rotate: {x: 0, y: 80, z: 0},duration: 1100});
