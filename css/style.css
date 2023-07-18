@@ -258,10 +258,7 @@ i {
 
 .texto {
     display: none;
-    width: 100%;
-    min-width: 450px;
-    min-height: 200px;
-    background-color: #ffffff96;
+    background-color: #ffffffce;
     backdrop-filter: blur(10px);
     padding: 10px;
     border-radius: 20px;
