@@ -180,7 +180,6 @@ body {
     grid-template-columns: 1fr;
     margin: auto;
     grid-gap: 7px;
-    font-size: large;
     padding-bottom: 30px;
 }
     
@@ -206,6 +205,11 @@ body {
 
 .feature-title {
     font-size: large;
+}
+
+.texto {
+    padding:  2px;
+    position: relative;
 }
     
 
